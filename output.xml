@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.6.4 on win32)" generated="20190117 16:27:29.209" rpa="false">
+<suite id="s1" name="VeehuiStudy RF" source="D:\eclipse-workspace\VeehuiStudy_RF">
+<suite id="s1-s1" name="TestSuits" source="D:\eclipse-workspace\VeehuiStudy_RF\TestSuits">
+<suite id="s1-s1-s1" name="Test" source="D:\eclipse-workspace\VeehuiStudy_RF\TestSuits\Test.robot">
+<test id="s1-s1-s1-t1" name="MainPage">
+<kw name="LaunchVeehuiStudy" library="LaunchApp">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>noReset=${noReset}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+</arguments>
+<status status="PASS" starttime="20190117 16:27:29.403" endtime="20190117 16:27:49.131"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20190117 16:27:54.134" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20190117 16:27:49.132" endtime="20190117 16:27:54.135"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<msg timestamp="20190117 16:27:54.137" level="INFO">Clicking on a point (0,0).</msg>
+<status status="PASS" starttime="20190117 16:27:54.135" endtime="20190117 16:27:54.278"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20190117 16:27:55.279" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20190117 16:27:54.278" endtime="20190117 16:27:55.279"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<msg timestamp="20190117 16:27:55.281" level="INFO">Clicking on a point (0,0).</msg>
+<status status="PASS" starttime="20190117 16:27:55.279" endtime="20190117 16:27:55.409"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20190117 16:27:56.411" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20190117 16:27:55.410" endtime="20190117 16:27:56.411"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<msg timestamp="20190117 16:27:56.413" level="INFO">Clicking on a point (0,0).</msg>
+<status status="PASS" starttime="20190117 16:27:56.412" endtime="20190117 16:27:56.540"></status>
+</kw>
+<status status="PASS" starttime="20190117 16:27:29.402" endtime="20190117 16:27:56.540"></status>
+</kw>
+<status status="PASS" starttime="20190117 16:27:29.401" endtime="20190117 16:27:56.541" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190117 16:27:29.269" endtime="20190117 16:27:56.541"></status>
+</suite>
+<status status="PASS" starttime="20190117 16:27:29.266" endtime="20190117 16:27:56.543"></status>
+</suite>
+<status status="PASS" starttime="20190117 16:27:29.241" endtime="20190117 16:27:56.545"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="VeehuiStudy RF">VeehuiStudy RF</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TestSuits">VeehuiStudy RF.TestSuits</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Test">VeehuiStudy RF.TestSuits.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
